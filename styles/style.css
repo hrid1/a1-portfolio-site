@@ -51,9 +51,9 @@ body {
 
 .text-link {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 700;
+  line-height: 19px;
 }
 
 /* common end */
@@ -230,12 +230,28 @@ body {
 #next-target {
   border: 2px solid blue;
   width: 1140px;
-  height: 705px;
+  /* height: 705px; */
   margin: 80px auto;
-  
 }
 
-.next-skill-container{
-    border: 2px solid green;
-    margin-top: 48px;
+.next-skill-container {
+  /* border: 2px solid green; */
+  margin-top: 48px;
+  /* padding: 30px; */
+}
+
+.skill-card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.card-info > p {
+  margin-top: 8px;
+  margin-bottom: 18px;
 }
